@@ -1,0 +1,7 @@
+{
+  "name": "skycity-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "streamlit run /app/app.py --server.port 3000 --server.address 0.0.0.0 --server.headless true --server.enableCORS false --server.enableXsrfProtection false"
+  }
+}
